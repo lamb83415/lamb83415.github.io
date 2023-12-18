@@ -1,0 +1,999 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ESL_Protocol_V1
+  name: ESL_Protocol_V1
+  href: api/ESL_Protocol_V1.html
+  commentId: N:ESL_Protocol_V1
+  fullName: ESL_Protocol_V1
+  nameWithType: ESL_Protocol_V1
+- uid: ESL_Protocol_V1.EslProtocolGen
+  name: EslProtocolGen
+  href: api/ESL_Protocol_V1.EslProtocolGen.html
+  commentId: T:ESL_Protocol_V1.EslProtocolGen
+  fullName: ESL_Protocol_V1.EslProtocolGen
+  nameWithType: EslProtocolGen
+- uid: ESL_Protocol_V1.EslProtocolGen.EslRefresh(System.Byte)
+  name: EslRefresh(byte)
+  href: api/ESL_Protocol_V1.EslProtocolGen.EslRefresh.html#ESL_Protocol_V1_EslProtocolGen_EslRefresh_System_Byte_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.EslRefresh(System.Byte)
+  name.vb: EslRefresh(Byte)
+  fullName: ESL_Protocol_V1.EslProtocolGen.EslRefresh(byte)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.EslRefresh(Byte)
+  nameWithType: EslProtocolGen.EslRefresh(byte)
+  nameWithType.vb: EslProtocolGen.EslRefresh(Byte)
+- uid: ESL_Protocol_V1.EslProtocolGen.EslRefresh*
+  name: EslRefresh
+  href: api/ESL_Protocol_V1.EslProtocolGen.EslRefresh.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.EslRefresh
+  fullName: ESL_Protocol_V1.EslProtocolGen.EslRefresh
+  nameWithType: EslProtocolGen.EslRefresh
+- uid: ESL_Protocol_V1.EslProtocolGen.Template
+  name: EslProtocolGen.Template
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.html
+  commentId: T:ESL_Protocol_V1.EslProtocolGen.Template
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template
+  nameWithType: EslProtocolGen.Template
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode(System.UInt16,System.UInt16,System.Byte,ESL_Protocol_V1.EslProtocolGen.alignMode,ESL_Protocol_V1.EslProtocolGen.colorMode)
+  name: Add_Barcode(ushort, ushort, byte, alignMode, colorMode)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode.html#ESL_Protocol_V1_EslProtocolGen_Template_Add_Barcode_System_UInt16_System_UInt16_System_Byte_ESL_Protocol_V1_EslProtocolGen_alignMode_ESL_Protocol_V1_EslProtocolGen_colorMode_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode(System.UInt16,System.UInt16,System.Byte,ESL_Protocol_V1.EslProtocolGen.alignMode,ESL_Protocol_V1.EslProtocolGen.colorMode)
+  name.vb: Add_Barcode(UShort, UShort, Byte, alignMode, colorMode)
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode(ushort, ushort, byte, ESL_Protocol_V1.EslProtocolGen.alignMode, ESL_Protocol_V1.EslProtocolGen.colorMode)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode(UShort, UShort, Byte, ESL_Protocol_V1.EslProtocolGen.alignMode, ESL_Protocol_V1.EslProtocolGen.colorMode)
+  nameWithType: EslProtocolGen.Template.Add_Barcode(ushort, ushort, byte, EslProtocolGen.alignMode, EslProtocolGen.colorMode)
+  nameWithType.vb: EslProtocolGen.Template.Add_Barcode(UShort, UShort, Byte, EslProtocolGen.alignMode, EslProtocolGen.colorMode)
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode*
+  name: Add_Barcode
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode
+  nameWithType: EslProtocolGen.Template.Add_Barcode
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap(System.UInt16,System.UInt16,System.UInt16,System.Byte,ESL_Protocol_V1.EslProtocolGen.alignMode,ESL_Protocol_V1.EslProtocolGen.colorMode)
+  name: Add_Bitmap(ushort, ushort, ushort, byte, alignMode, colorMode)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap.html#ESL_Protocol_V1_EslProtocolGen_Template_Add_Bitmap_System_UInt16_System_UInt16_System_UInt16_System_Byte_ESL_Protocol_V1_EslProtocolGen_alignMode_ESL_Protocol_V1_EslProtocolGen_colorMode_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap(System.UInt16,System.UInt16,System.UInt16,System.Byte,ESL_Protocol_V1.EslProtocolGen.alignMode,ESL_Protocol_V1.EslProtocolGen.colorMode)
+  name.vb: Add_Bitmap(UShort, UShort, UShort, Byte, alignMode, colorMode)
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap(ushort, ushort, ushort, byte, ESL_Protocol_V1.EslProtocolGen.alignMode, ESL_Protocol_V1.EslProtocolGen.colorMode)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap(UShort, UShort, UShort, Byte, ESL_Protocol_V1.EslProtocolGen.alignMode, ESL_Protocol_V1.EslProtocolGen.colorMode)
+  nameWithType: EslProtocolGen.Template.Add_Bitmap(ushort, ushort, ushort, byte, EslProtocolGen.alignMode, EslProtocolGen.colorMode)
+  nameWithType.vb: EslProtocolGen.Template.Add_Bitmap(UShort, UShort, UShort, Byte, EslProtocolGen.alignMode, EslProtocolGen.colorMode)
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap*
+  name: Add_Bitmap
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap
+  nameWithType: EslProtocolGen.Template.Add_Bitmap
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Add_Num(System.UInt16,System.UInt16,ESL_Protocol_V1.EslProtocolGen.fontType,ESL_Protocol_V1.EslProtocolGen.alignMode,ESL_Protocol_V1.EslProtocolGen.colorMode)
+  name: Add_Num(ushort, ushort, fontType, alignMode, colorMode)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Num.html#ESL_Protocol_V1_EslProtocolGen_Template_Add_Num_System_UInt16_System_UInt16_ESL_Protocol_V1_EslProtocolGen_fontType_ESL_Protocol_V1_EslProtocolGen_alignMode_ESL_Protocol_V1_EslProtocolGen_colorMode_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Template.Add_Num(System.UInt16,System.UInt16,ESL_Protocol_V1.EslProtocolGen.fontType,ESL_Protocol_V1.EslProtocolGen.alignMode,ESL_Protocol_V1.EslProtocolGen.colorMode)
+  name.vb: Add_Num(UShort, UShort, fontType, alignMode, colorMode)
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Add_Num(ushort, ushort, ESL_Protocol_V1.EslProtocolGen.fontType, ESL_Protocol_V1.EslProtocolGen.alignMode, ESL_Protocol_V1.EslProtocolGen.colorMode)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.Template.Add_Num(UShort, UShort, ESL_Protocol_V1.EslProtocolGen.fontType, ESL_Protocol_V1.EslProtocolGen.alignMode, ESL_Protocol_V1.EslProtocolGen.colorMode)
+  nameWithType: EslProtocolGen.Template.Add_Num(ushort, ushort, EslProtocolGen.fontType, EslProtocolGen.alignMode, EslProtocolGen.colorMode)
+  nameWithType.vb: EslProtocolGen.Template.Add_Num(UShort, UShort, EslProtocolGen.fontType, EslProtocolGen.alignMode, EslProtocolGen.colorMode)
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Add_Num*
+  name: Add_Num
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Num.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Template.Add_Num
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Add_Num
+  nameWithType: EslProtocolGen.Template.Add_Num
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Add_String(System.UInt16,System.UInt16,ESL_Protocol_V1.EslProtocolGen.fontType,ESL_Protocol_V1.EslProtocolGen.alignMode,ESL_Protocol_V1.EslProtocolGen.colorMode)
+  name: Add_String(ushort, ushort, fontType, alignMode, colorMode)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Add_String.html#ESL_Protocol_V1_EslProtocolGen_Template_Add_String_System_UInt16_System_UInt16_ESL_Protocol_V1_EslProtocolGen_fontType_ESL_Protocol_V1_EslProtocolGen_alignMode_ESL_Protocol_V1_EslProtocolGen_colorMode_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Template.Add_String(System.UInt16,System.UInt16,ESL_Protocol_V1.EslProtocolGen.fontType,ESL_Protocol_V1.EslProtocolGen.alignMode,ESL_Protocol_V1.EslProtocolGen.colorMode)
+  name.vb: Add_String(UShort, UShort, fontType, alignMode, colorMode)
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Add_String(ushort, ushort, ESL_Protocol_V1.EslProtocolGen.fontType, ESL_Protocol_V1.EslProtocolGen.alignMode, ESL_Protocol_V1.EslProtocolGen.colorMode)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.Template.Add_String(UShort, UShort, ESL_Protocol_V1.EslProtocolGen.fontType, ESL_Protocol_V1.EslProtocolGen.alignMode, ESL_Protocol_V1.EslProtocolGen.colorMode)
+  nameWithType: EslProtocolGen.Template.Add_String(ushort, ushort, EslProtocolGen.fontType, EslProtocolGen.alignMode, EslProtocolGen.colorMode)
+  nameWithType.vb: EslProtocolGen.Template.Add_String(UShort, UShort, EslProtocolGen.fontType, EslProtocolGen.alignMode, EslProtocolGen.colorMode)
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Add_String*
+  name: Add_String
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Add_String.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Template.Add_String
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Add_String
+  nameWithType: EslProtocolGen.Template.Add_String
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate
+  name: AutoNewTemplate
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate.html#ESL_Protocol_V1_EslProtocolGen_Template_AutoNewTemplate
+  commentId: P:ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate
+  nameWithType: EslProtocolGen.Template.AutoNewTemplate
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate*
+  name: AutoNewTemplate
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate
+  nameWithType: EslProtocolGen.Template.AutoNewTemplate
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Clear
+  name: Clear()
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Clear.html#ESL_Protocol_V1_EslProtocolGen_Template_Clear
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Template.Clear
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Clear()
+  nameWithType: EslProtocolGen.Template.Clear()
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.Clear*
+  name: Clear
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.Clear.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Template.Clear
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.Clear
+  nameWithType: EslProtocolGen.Template.Clear
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.GenPkg
+  name: GenPkg()
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.GenPkg.html#ESL_Protocol_V1_EslProtocolGen_Template_GenPkg
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Template.GenPkg
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.GenPkg()
+  nameWithType: EslProtocolGen.Template.GenPkg()
+- uid: ESL_Protocol_V1.EslProtocolGen.Template.GenPkg*
+  name: GenPkg
+  href: api/ESL_Protocol_V1.EslProtocolGen.Template.GenPkg.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Template.GenPkg
+  fullName: ESL_Protocol_V1.EslProtocolGen.Template.GenPkg
+  nameWithType: EslProtocolGen.Template.GenPkg
+- uid: ESL_Protocol_V1.EslProtocolGen.Update
+  name: EslProtocolGen.Update
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.html
+  commentId: T:ESL_Protocol_V1.EslProtocolGen.Update
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update
+  nameWithType: EslProtocolGen.Update
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Barcode(System.Byte,System.String)
+  name: Barcode(byte, string)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Barcode.html#ESL_Protocol_V1_EslProtocolGen_Update_Barcode_System_Byte_System_String_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Update.Barcode(System.Byte,System.String)
+  name.vb: Barcode(Byte, String)
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Barcode(byte, string)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.Update.Barcode(Byte, String)
+  nameWithType: EslProtocolGen.Update.Barcode(byte, string)
+  nameWithType.vb: EslProtocolGen.Update.Barcode(Byte, String)
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Barcode*
+  name: Barcode
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Barcode.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.Barcode
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Barcode
+  nameWithType: EslProtocolGen.Update.Barcode
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Bitmap(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name: Bitmap(byte, IEnumerable<byte>)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Bitmap.html#ESL_Protocol_V1_EslProtocolGen_Update_Bitmap_System_Byte_System_Collections_Generic_IEnumerable_System_Byte__
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Update.Bitmap(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name.vb: Bitmap(Byte, IEnumerable(Of Byte))
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Bitmap(byte, System.Collections.Generic.IEnumerable<byte>)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.Update.Bitmap(Byte, System.Collections.Generic.IEnumerable(Of Byte))
+  nameWithType: EslProtocolGen.Update.Bitmap(byte, IEnumerable<byte>)
+  nameWithType.vb: EslProtocolGen.Update.Bitmap(Byte, IEnumerable(Of Byte))
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Bitmap*
+  name: Bitmap
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Bitmap.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.Bitmap
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Bitmap
+  nameWithType: EslProtocolGen.Update.Bitmap
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize
+  name: BmpSplitSize
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize.html#ESL_Protocol_V1_EslProtocolGen_Update_BmpSplitSize
+  commentId: P:ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize
+  nameWithType: EslProtocolGen.Update.BmpSplitSize
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize*
+  name: BmpSplitSize
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize
+  nameWithType: EslProtocolGen.Update.BmpSplitSize
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Clear
+  name: Clear()
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Clear.html#ESL_Protocol_V1_EslProtocolGen_Update_Clear
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Update.Clear
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Clear()
+  nameWithType: EslProtocolGen.Update.Clear()
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Clear*
+  name: Clear
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Clear.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.Clear
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Clear
+  nameWithType: EslProtocolGen.Update.Clear
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize
+  name: ContentSplitSize
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize.html#ESL_Protocol_V1_EslProtocolGen_Update_ContentSplitSize
+  commentId: P:ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize
+  nameWithType: EslProtocolGen.Update.ContentSplitSize
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize*
+  name: ContentSplitSize
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize
+  nameWithType: EslProtocolGen.Update.ContentSplitSize
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.GenPkg
+  name: GenPkg()
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.GenPkg.html#ESL_Protocol_V1_EslProtocolGen_Update_GenPkg
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Update.GenPkg
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.GenPkg()
+  nameWithType: EslProtocolGen.Update.GenPkg()
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.GenPkg*
+  name: GenPkg
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.GenPkg.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.GenPkg
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.GenPkg
+  nameWithType: EslProtocolGen.Update.GenPkg
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Indicator(ESL_Protocol_V1.EslProtocolGen.ledColor)
+  name: Indicator(ledColor)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Indicator.html#ESL_Protocol_V1_EslProtocolGen_Update_Indicator_ESL_Protocol_V1_EslProtocolGen_ledColor_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Update.Indicator(ESL_Protocol_V1.EslProtocolGen.ledColor)
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Indicator(ESL_Protocol_V1.EslProtocolGen.ledColor)
+  nameWithType: EslProtocolGen.Update.Indicator(EslProtocolGen.ledColor)
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Indicator*
+  name: Indicator
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Indicator.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.Indicator
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Indicator
+  nameWithType: EslProtocolGen.Update.Indicator
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.LASA(System.Byte)
+  name: LASA(byte)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.LASA.html#ESL_Protocol_V1_EslProtocolGen_Update_LASA_System_Byte_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Update.LASA(System.Byte)
+  name.vb: LASA(Byte)
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.LASA(byte)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.Update.LASA(Byte)
+  nameWithType: EslProtocolGen.Update.LASA(byte)
+  nameWithType.vb: EslProtocolGen.Update.LASA(Byte)
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.LASA*
+  name: LASA
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.LASA.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.LASA
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.LASA
+  nameWithType: EslProtocolGen.Update.LASA
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Num(System.Byte,System.UInt32)
+  name: Num(byte, uint)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Num.html#ESL_Protocol_V1_EslProtocolGen_Update_Num_System_Byte_System_UInt32_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Update.Num(System.Byte,System.UInt32)
+  name.vb: Num(Byte, UInteger)
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Num(byte, uint)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.Update.Num(Byte, UInteger)
+  nameWithType: EslProtocolGen.Update.Num(byte, uint)
+  nameWithType.vb: EslProtocolGen.Update.Num(Byte, UInteger)
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.Num*
+  name: Num
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.Num.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.Num
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.Num
+  nameWithType: EslProtocolGen.Update.Num
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.String(System.Byte,System.String)
+  name: String(byte, string)
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.String.html#ESL_Protocol_V1_EslProtocolGen_Update_String_System_Byte_System_String_
+  commentId: M:ESL_Protocol_V1.EslProtocolGen.Update.String(System.Byte,System.String)
+  name.vb: String(Byte, String)
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.String(byte, string)
+  fullName.vb: ESL_Protocol_V1.EslProtocolGen.Update.String(Byte, String)
+  nameWithType: EslProtocolGen.Update.String(byte, string)
+  nameWithType.vb: EslProtocolGen.Update.String(Byte, String)
+- uid: ESL_Protocol_V1.EslProtocolGen.Update.String*
+  name: String
+  href: api/ESL_Protocol_V1.EslProtocolGen.Update.String.html
+  commentId: Overload:ESL_Protocol_V1.EslProtocolGen.Update.String
+  fullName: ESL_Protocol_V1.EslProtocolGen.Update.String
+  nameWithType: EslProtocolGen.Update.String
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode
+  name: EslProtocolGen.alignMode
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html
+  commentId: T:ESL_Protocol_V1.EslProtocolGen.alignMode
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode
+  nameWithType: EslProtocolGen.alignMode
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode.LeftBott
+  name: LeftBott
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html#ESL_Protocol_V1_EslProtocolGen_alignMode_LeftBott
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.alignMode.LeftBott
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode.LeftBott
+  nameWithType: EslProtocolGen.alignMode.LeftBott
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode.LeftMid
+  name: LeftMid
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html#ESL_Protocol_V1_EslProtocolGen_alignMode_LeftMid
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.alignMode.LeftMid
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode.LeftMid
+  nameWithType: EslProtocolGen.alignMode.LeftMid
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode.LeftUp
+  name: LeftUp
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html#ESL_Protocol_V1_EslProtocolGen_alignMode_LeftUp
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.alignMode.LeftUp
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode.LeftUp
+  nameWithType: EslProtocolGen.alignMode.LeftUp
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode.MidBott
+  name: MidBott
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html#ESL_Protocol_V1_EslProtocolGen_alignMode_MidBott
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.alignMode.MidBott
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode.MidBott
+  nameWithType: EslProtocolGen.alignMode.MidBott
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode.MidMid
+  name: MidMid
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html#ESL_Protocol_V1_EslProtocolGen_alignMode_MidMid
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.alignMode.MidMid
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode.MidMid
+  nameWithType: EslProtocolGen.alignMode.MidMid
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode.MidUp
+  name: MidUp
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html#ESL_Protocol_V1_EslProtocolGen_alignMode_MidUp
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.alignMode.MidUp
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode.MidUp
+  nameWithType: EslProtocolGen.alignMode.MidUp
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode.RightBott
+  name: RightBott
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html#ESL_Protocol_V1_EslProtocolGen_alignMode_RightBott
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.alignMode.RightBott
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode.RightBott
+  nameWithType: EslProtocolGen.alignMode.RightBott
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode.RightMid
+  name: RightMid
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html#ESL_Protocol_V1_EslProtocolGen_alignMode_RightMid
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.alignMode.RightMid
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode.RightMid
+  nameWithType: EslProtocolGen.alignMode.RightMid
+- uid: ESL_Protocol_V1.EslProtocolGen.alignMode.RightUp
+  name: RightUp
+  href: api/ESL_Protocol_V1.EslProtocolGen.alignMode.html#ESL_Protocol_V1_EslProtocolGen_alignMode_RightUp
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.alignMode.RightUp
+  fullName: ESL_Protocol_V1.EslProtocolGen.alignMode.RightUp
+  nameWithType: EslProtocolGen.alignMode.RightUp
+- uid: ESL_Protocol_V1.EslProtocolGen.colorMode
+  name: EslProtocolGen.colorMode
+  href: api/ESL_Protocol_V1.EslProtocolGen.colorMode.html
+  commentId: T:ESL_Protocol_V1.EslProtocolGen.colorMode
+  fullName: ESL_Protocol_V1.EslProtocolGen.colorMode
+  nameWithType: EslProtocolGen.colorMode
+- uid: ESL_Protocol_V1.EslProtocolGen.colorMode.Black
+  name: Black
+  href: api/ESL_Protocol_V1.EslProtocolGen.colorMode.html#ESL_Protocol_V1_EslProtocolGen_colorMode_Black
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.colorMode.Black
+  fullName: ESL_Protocol_V1.EslProtocolGen.colorMode.Black
+  nameWithType: EslProtocolGen.colorMode.Black
+- uid: ESL_Protocol_V1.EslProtocolGen.colorMode.Red
+  name: Red
+  href: api/ESL_Protocol_V1.EslProtocolGen.colorMode.html#ESL_Protocol_V1_EslProtocolGen_colorMode_Red
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.colorMode.Red
+  fullName: ESL_Protocol_V1.EslProtocolGen.colorMode.Red
+  nameWithType: EslProtocolGen.colorMode.Red
+- uid: ESL_Protocol_V1.EslProtocolGen.colorMode.White
+  name: White
+  href: api/ESL_Protocol_V1.EslProtocolGen.colorMode.html#ESL_Protocol_V1_EslProtocolGen_colorMode_White
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.colorMode.White
+  fullName: ESL_Protocol_V1.EslProtocolGen.colorMode.White
+  nameWithType: EslProtocolGen.colorMode.White
+- uid: ESL_Protocol_V1.EslProtocolGen.fontType
+  name: EslProtocolGen.fontType
+  href: api/ESL_Protocol_V1.EslProtocolGen.fontType.html
+  commentId: T:ESL_Protocol_V1.EslProtocolGen.fontType
+  fullName: ESL_Protocol_V1.EslProtocolGen.fontType
+  nameWithType: EslProtocolGen.fontType
+- uid: ESL_Protocol_V1.EslProtocolGen.fontType.Font12
+  name: Font12
+  href: api/ESL_Protocol_V1.EslProtocolGen.fontType.html#ESL_Protocol_V1_EslProtocolGen_fontType_Font12
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.fontType.Font12
+  fullName: ESL_Protocol_V1.EslProtocolGen.fontType.Font12
+  nameWithType: EslProtocolGen.fontType.Font12
+- uid: ESL_Protocol_V1.EslProtocolGen.fontType.Font16
+  name: Font16
+  href: api/ESL_Protocol_V1.EslProtocolGen.fontType.html#ESL_Protocol_V1_EslProtocolGen_fontType_Font16
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.fontType.Font16
+  fullName: ESL_Protocol_V1.EslProtocolGen.fontType.Font16
+  nameWithType: EslProtocolGen.fontType.Font16
+- uid: ESL_Protocol_V1.EslProtocolGen.fontType.Font24
+  name: Font24
+  href: api/ESL_Protocol_V1.EslProtocolGen.fontType.html#ESL_Protocol_V1_EslProtocolGen_fontType_Font24
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.fontType.Font24
+  fullName: ESL_Protocol_V1.EslProtocolGen.fontType.Font24
+  nameWithType: EslProtocolGen.fontType.Font24
+- uid: ESL_Protocol_V1.EslProtocolGen.fontType.Font32
+  name: Font32
+  href: api/ESL_Protocol_V1.EslProtocolGen.fontType.html#ESL_Protocol_V1_EslProtocolGen_fontType_Font32
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.fontType.Font32
+  fullName: ESL_Protocol_V1.EslProtocolGen.fontType.Font32
+  nameWithType: EslProtocolGen.fontType.Font32
+- uid: ESL_Protocol_V1.EslProtocolGen.ledColor
+  name: EslProtocolGen.ledColor
+  href: api/ESL_Protocol_V1.EslProtocolGen.ledColor.html
+  commentId: T:ESL_Protocol_V1.EslProtocolGen.ledColor
+  fullName: ESL_Protocol_V1.EslProtocolGen.ledColor
+  nameWithType: EslProtocolGen.ledColor
+- uid: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_B
+  name: LED_B
+  href: api/ESL_Protocol_V1.EslProtocolGen.ledColor.html#ESL_Protocol_V1_EslProtocolGen_ledColor_LED_B
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.ledColor.LED_B
+  fullName: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_B
+  nameWithType: EslProtocolGen.ledColor.LED_B
+- uid: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_G
+  name: LED_G
+  href: api/ESL_Protocol_V1.EslProtocolGen.ledColor.html#ESL_Protocol_V1_EslProtocolGen_ledColor_LED_G
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.ledColor.LED_G
+  fullName: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_G
+  nameWithType: EslProtocolGen.ledColor.LED_G
+- uid: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_OFF
+  name: LED_OFF
+  href: api/ESL_Protocol_V1.EslProtocolGen.ledColor.html#ESL_Protocol_V1_EslProtocolGen_ledColor_LED_OFF
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.ledColor.LED_OFF
+  fullName: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_OFF
+  nameWithType: EslProtocolGen.ledColor.LED_OFF
+- uid: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_R
+  name: LED_R
+  href: api/ESL_Protocol_V1.EslProtocolGen.ledColor.html#ESL_Protocol_V1_EslProtocolGen_ledColor_LED_R
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.ledColor.LED_R
+  fullName: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_R
+  nameWithType: EslProtocolGen.ledColor.LED_R
+- uid: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_Y
+  name: LED_Y
+  href: api/ESL_Protocol_V1.EslProtocolGen.ledColor.html#ESL_Protocol_V1_EslProtocolGen_ledColor_LED_Y
+  commentId: F:ESL_Protocol_V1.EslProtocolGen.ledColor.LED_Y
+  fullName: ESL_Protocol_V1.EslProtocolGen.ledColor.LED_Y
+  nameWithType: EslProtocolGen.ledColor.LED_Y
+- uid: PROTOCOL_ESL
+  name: PROTOCOL_ESL
+  href: api/PROTOCOL_ESL.html
+  commentId: N:PROTOCOL_ESL
+  fullName: PROTOCOL_ESL
+  nameWithType: PROTOCOL_ESL
+- uid: PROTOCOL_ESL.ESL_PROT
+  name: ESL_PROT
+  href: api/PROTOCOL_ESL.ESL_PROT.html
+  commentId: T:PROTOCOL_ESL.ESL_PROT
+  fullName: PROTOCOL_ESL.ESL_PROT
+  nameWithType: ESL_PROT
+- uid: PROTOCOL_ESL.ESL_PROT.EslRefresh(System.Byte)
+  name: EslRefresh(byte)
+  href: api/PROTOCOL_ESL.ESL_PROT.EslRefresh.html#PROTOCOL_ESL_ESL_PROT_EslRefresh_System_Byte_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.EslRefresh(System.Byte)
+  name.vb: EslRefresh(Byte)
+  fullName: PROTOCOL_ESL.ESL_PROT.EslRefresh(byte)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.EslRefresh(Byte)
+  nameWithType: ESL_PROT.EslRefresh(byte)
+  nameWithType.vb: ESL_PROT.EslRefresh(Byte)
+- uid: PROTOCOL_ESL.ESL_PROT.EslRefresh*
+  name: EslRefresh
+  href: api/PROTOCOL_ESL.ESL_PROT.EslRefresh.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.EslRefresh
+  fullName: PROTOCOL_ESL.ESL_PROT.EslRefresh
+  nameWithType: ESL_PROT.EslRefresh
+- uid: PROTOCOL_ESL.ESL_PROT.EslWake(System.Byte)
+  name: EslWake(byte)
+  href: api/PROTOCOL_ESL.ESL_PROT.EslWake.html#PROTOCOL_ESL_ESL_PROT_EslWake_System_Byte_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.EslWake(System.Byte)
+  name.vb: EslWake(Byte)
+  fullName: PROTOCOL_ESL.ESL_PROT.EslWake(byte)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.EslWake(Byte)
+  nameWithType: ESL_PROT.EslWake(byte)
+  nameWithType.vb: ESL_PROT.EslWake(Byte)
+- uid: PROTOCOL_ESL.ESL_PROT.EslWake*
+  name: EslWake
+  href: api/PROTOCOL_ESL.ESL_PROT.EslWake.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.EslWake
+  fullName: PROTOCOL_ESL.ESL_PROT.EslWake
+  nameWithType: ESL_PROT.EslWake
+- uid: PROTOCOL_ESL.ESL_PROT.GenPack(System.Collections.Generic.List{System.Byte},System.Byte)
+  name: GenPack(List<byte>, byte)
+  href: api/PROTOCOL_ESL.ESL_PROT.GenPack.html#PROTOCOL_ESL_ESL_PROT_GenPack_System_Collections_Generic_List_System_Byte__System_Byte_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.GenPack(System.Collections.Generic.List{System.Byte},System.Byte)
+  name.vb: GenPack(List(Of Byte), Byte)
+  fullName: PROTOCOL_ESL.ESL_PROT.GenPack(System.Collections.Generic.List<byte>, byte)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.GenPack(System.Collections.Generic.List(Of Byte), Byte)
+  nameWithType: ESL_PROT.GenPack(List<byte>, byte)
+  nameWithType.vb: ESL_PROT.GenPack(List(Of Byte), Byte)
+- uid: PROTOCOL_ESL.ESL_PROT.GenPack*
+  name: GenPack
+  href: api/PROTOCOL_ESL.ESL_PROT.GenPack.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.GenPack
+  fullName: PROTOCOL_ESL.ESL_PROT.GenPack
+  nameWithType: ESL_PROT.GenPack
+- uid: PROTOCOL_ESL.ESL_PROT.GetBatt(System.Byte)
+  name: GetBatt(byte)
+  href: api/PROTOCOL_ESL.ESL_PROT.GetBatt.html#PROTOCOL_ESL_ESL_PROT_GetBatt_System_Byte_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.GetBatt(System.Byte)
+  name.vb: GetBatt(Byte)
+  fullName: PROTOCOL_ESL.ESL_PROT.GetBatt(byte)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.GetBatt(Byte)
+  nameWithType: ESL_PROT.GetBatt(byte)
+  nameWithType.vb: ESL_PROT.GetBatt(Byte)
+- uid: PROTOCOL_ESL.ESL_PROT.GetBatt*
+  name: GetBatt
+  href: api/PROTOCOL_ESL.ESL_PROT.GetBatt.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.GetBatt
+  fullName: PROTOCOL_ESL.ESL_PROT.GetBatt
+  nameWithType: ESL_PROT.GetBatt
+- uid: PROTOCOL_ESL.ESL_PROT.Template
+  name: ESL_PROT.Template
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.html
+  commentId: T:PROTOCOL_ESL.ESL_PROT.Template
+  fullName: PROTOCOL_ESL.ESL_PROT.Template
+  nameWithType: ESL_PROT.Template
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode(System.Byte,System.UInt16,System.UInt16,System.Byte,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name: Add_Barcode(byte, ushort, ushort, byte, alignMode, colorMode)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode.html#PROTOCOL_ESL_ESL_PROT_Template_Add_Barcode_System_Byte_System_UInt16_System_UInt16_System_Byte_PROTOCOL_ESL_alignMode_PROTOCOL_ESL_colorMode_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode(System.Byte,System.UInt16,System.UInt16,System.Byte,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name.vb: Add_Barcode(Byte, UShort, UShort, Byte, alignMode, colorMode)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode(byte, ushort, ushort, byte, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode(Byte, UShort, UShort, Byte, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  nameWithType: ESL_PROT.Template.Add_Barcode(byte, ushort, ushort, byte, alignMode, colorMode)
+  nameWithType.vb: ESL_PROT.Template.Add_Barcode(Byte, UShort, UShort, Byte, alignMode, colorMode)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode*
+  name: Add_Barcode
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode
+  nameWithType: ESL_PROT.Template.Add_Barcode
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap(System.Byte,System.UInt16,System.UInt16,System.UInt16,System.Byte,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name: Add_Bitmap(byte, ushort, ushort, ushort, byte, alignMode, colorMode)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap.html#PROTOCOL_ESL_ESL_PROT_Template_Add_Bitmap_System_Byte_System_UInt16_System_UInt16_System_UInt16_System_Byte_PROTOCOL_ESL_alignMode_PROTOCOL_ESL_colorMode_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap(System.Byte,System.UInt16,System.UInt16,System.UInt16,System.Byte,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name.vb: Add_Bitmap(Byte, UShort, UShort, UShort, Byte, alignMode, colorMode)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap(byte, ushort, ushort, ushort, byte, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap(Byte, UShort, UShort, UShort, Byte, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  nameWithType: ESL_PROT.Template.Add_Bitmap(byte, ushort, ushort, ushort, byte, alignMode, colorMode)
+  nameWithType.vb: ESL_PROT.Template.Add_Bitmap(Byte, UShort, UShort, UShort, Byte, alignMode, colorMode)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap*
+  name: Add_Bitmap
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap
+  nameWithType: ESL_PROT.Template.Add_Bitmap
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name: Add_MultiElem(byte, IEnumerable<byte>)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem.html#PROTOCOL_ESL_ESL_PROT_Template_Add_MultiElem_System_Byte_System_Collections_Generic_IEnumerable_System_Byte__
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name.vb: Add_MultiElem(Byte, IEnumerable(Of Byte))
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem(byte, System.Collections.Generic.IEnumerable<byte>)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem(Byte, System.Collections.Generic.IEnumerable(Of Byte))
+  nameWithType: ESL_PROT.Template.Add_MultiElem(byte, IEnumerable<byte>)
+  nameWithType.vb: ESL_PROT.Template.Add_MultiElem(Byte, IEnumerable(Of Byte))
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem*
+  name: Add_MultiElem
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem
+  nameWithType: ESL_PROT.Template.Add_MultiElem
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name: Add_MultiElem_wClr(byte, IEnumerable<byte>)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr.html#PROTOCOL_ESL_ESL_PROT_Template_Add_MultiElem_wClr_System_Byte_System_Collections_Generic_IEnumerable_System_Byte__
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name.vb: Add_MultiElem_wClr(Byte, IEnumerable(Of Byte))
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr(byte, System.Collections.Generic.IEnumerable<byte>)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr(Byte, System.Collections.Generic.IEnumerable(Of Byte))
+  nameWithType: ESL_PROT.Template.Add_MultiElem_wClr(byte, IEnumerable<byte>)
+  nameWithType.vb: ESL_PROT.Template.Add_MultiElem_wClr(Byte, IEnumerable(Of Byte))
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr*
+  name: Add_MultiElem_wClr
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr
+  nameWithType: ESL_PROT.Template.Add_MultiElem_wClr
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_Num(System.Byte,System.UInt16,System.UInt16,PROTOCOL_ESL.fontType,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name: Add_Num(byte, ushort, ushort, fontType, alignMode, colorMode)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_Num.html#PROTOCOL_ESL_ESL_PROT_Template_Add_Num_System_Byte_System_UInt16_System_UInt16_PROTOCOL_ESL_fontType_PROTOCOL_ESL_alignMode_PROTOCOL_ESL_colorMode_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Add_Num(System.Byte,System.UInt16,System.UInt16,PROTOCOL_ESL.fontType,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name.vb: Add_Num(Byte, UShort, UShort, fontType, alignMode, colorMode)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_Num(byte, ushort, ushort, PROTOCOL_ESL.fontType, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Add_Num(Byte, UShort, UShort, PROTOCOL_ESL.fontType, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  nameWithType: ESL_PROT.Template.Add_Num(byte, ushort, ushort, fontType, alignMode, colorMode)
+  nameWithType.vb: ESL_PROT.Template.Add_Num(Byte, UShort, UShort, fontType, alignMode, colorMode)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_Num*
+  name: Add_Num
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_Num.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Add_Num
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_Num
+  nameWithType: ESL_PROT.Template.Add_Num
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_String(System.Byte,System.UInt16,System.UInt16,PROTOCOL_ESL.fontType,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name: Add_String(byte, ushort, ushort, fontType, alignMode, colorMode)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_String.html#PROTOCOL_ESL_ESL_PROT_Template_Add_String_System_Byte_System_UInt16_System_UInt16_PROTOCOL_ESL_fontType_PROTOCOL_ESL_alignMode_PROTOCOL_ESL_colorMode_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Add_String(System.Byte,System.UInt16,System.UInt16,PROTOCOL_ESL.fontType,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name.vb: Add_String(Byte, UShort, UShort, fontType, alignMode, colorMode)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_String(byte, ushort, ushort, PROTOCOL_ESL.fontType, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Add_String(Byte, UShort, UShort, PROTOCOL_ESL.fontType, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  nameWithType: ESL_PROT.Template.Add_String(byte, ushort, ushort, fontType, alignMode, colorMode)
+  nameWithType.vb: ESL_PROT.Template.Add_String(Byte, UShort, UShort, fontType, alignMode, colorMode)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Add_String*
+  name: Add_String
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Add_String.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Add_String
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Add_String
+  nameWithType: ESL_PROT.Template.Add_String
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Clear(System.Byte)
+  name: Clear(byte)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Clear.html#PROTOCOL_ESL_ESL_PROT_Template_Clear_System_Byte_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Clear(System.Byte)
+  name.vb: Clear(Byte)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Clear(byte)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Clear(Byte)
+  nameWithType: ESL_PROT.Template.Clear(byte)
+  nameWithType.vb: ESL_PROT.Template.Clear(Byte)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Clear*
+  name: Clear
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Clear.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Clear
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Clear
+  nameWithType: ESL_PROT.Template.Clear
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode(System.UInt16,System.UInt16,System.Byte,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name: Elem_Barcode(ushort, ushort, byte, alignMode, colorMode)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode.html#PROTOCOL_ESL_ESL_PROT_Template_Elem_Barcode_System_UInt16_System_UInt16_System_Byte_PROTOCOL_ESL_alignMode_PROTOCOL_ESL_colorMode_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode(System.UInt16,System.UInt16,System.Byte,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name.vb: Elem_Barcode(UShort, UShort, Byte, alignMode, colorMode)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode(ushort, ushort, byte, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode(UShort, UShort, Byte, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  nameWithType: ESL_PROT.Template.Elem_Barcode(ushort, ushort, byte, alignMode, colorMode)
+  nameWithType.vb: ESL_PROT.Template.Elem_Barcode(UShort, UShort, Byte, alignMode, colorMode)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode*
+  name: Elem_Barcode
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode
+  nameWithType: ESL_PROT.Template.Elem_Barcode
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap(System.UInt16,System.UInt16,System.UInt16,System.Byte,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name: Elem_Bitmap(ushort, ushort, ushort, byte, alignMode, colorMode)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap.html#PROTOCOL_ESL_ESL_PROT_Template_Elem_Bitmap_System_UInt16_System_UInt16_System_UInt16_System_Byte_PROTOCOL_ESL_alignMode_PROTOCOL_ESL_colorMode_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap(System.UInt16,System.UInt16,System.UInt16,System.Byte,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name.vb: Elem_Bitmap(UShort, UShort, UShort, Byte, alignMode, colorMode)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap(ushort, ushort, ushort, byte, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap(UShort, UShort, UShort, Byte, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  nameWithType: ESL_PROT.Template.Elem_Bitmap(ushort, ushort, ushort, byte, alignMode, colorMode)
+  nameWithType.vb: ESL_PROT.Template.Elem_Bitmap(UShort, UShort, UShort, Byte, alignMode, colorMode)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap*
+  name: Elem_Bitmap
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap
+  nameWithType: ESL_PROT.Template.Elem_Bitmap
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Elem_Num(System.UInt16,System.UInt16,PROTOCOL_ESL.fontType,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name: Elem_Num(ushort, ushort, fontType, alignMode, colorMode)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Num.html#PROTOCOL_ESL_ESL_PROT_Template_Elem_Num_System_UInt16_System_UInt16_PROTOCOL_ESL_fontType_PROTOCOL_ESL_alignMode_PROTOCOL_ESL_colorMode_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Elem_Num(System.UInt16,System.UInt16,PROTOCOL_ESL.fontType,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name.vb: Elem_Num(UShort, UShort, fontType, alignMode, colorMode)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Elem_Num(ushort, ushort, PROTOCOL_ESL.fontType, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Elem_Num(UShort, UShort, PROTOCOL_ESL.fontType, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  nameWithType: ESL_PROT.Template.Elem_Num(ushort, ushort, fontType, alignMode, colorMode)
+  nameWithType.vb: ESL_PROT.Template.Elem_Num(UShort, UShort, fontType, alignMode, colorMode)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Elem_Num*
+  name: Elem_Num
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Num.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Elem_Num
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Elem_Num
+  nameWithType: ESL_PROT.Template.Elem_Num
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Elem_String(System.UInt16,System.UInt16,PROTOCOL_ESL.fontType,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name: Elem_String(ushort, ushort, fontType, alignMode, colorMode)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Elem_String.html#PROTOCOL_ESL_ESL_PROT_Template_Elem_String_System_UInt16_System_UInt16_PROTOCOL_ESL_fontType_PROTOCOL_ESL_alignMode_PROTOCOL_ESL_colorMode_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Elem_String(System.UInt16,System.UInt16,PROTOCOL_ESL.fontType,PROTOCOL_ESL.alignMode,PROTOCOL_ESL.colorMode)
+  name.vb: Elem_String(UShort, UShort, fontType, alignMode, colorMode)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Elem_String(ushort, ushort, PROTOCOL_ESL.fontType, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Elem_String(UShort, UShort, PROTOCOL_ESL.fontType, PROTOCOL_ESL.alignMode, PROTOCOL_ESL.colorMode)
+  nameWithType: ESL_PROT.Template.Elem_String(ushort, ushort, fontType, alignMode, colorMode)
+  nameWithType.vb: ESL_PROT.Template.Elem_String(UShort, UShort, fontType, alignMode, colorMode)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Elem_String*
+  name: Elem_String
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Elem_String.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Elem_String
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Elem_String
+  nameWithType: ESL_PROT.Template.Elem_String
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Save(System.Byte)
+  name: Save(byte)
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Save.html#PROTOCOL_ESL_ESL_PROT_Template_Save_System_Byte_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Template.Save(System.Byte)
+  name.vb: Save(Byte)
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Save(byte)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Template.Save(Byte)
+  nameWithType: ESL_PROT.Template.Save(byte)
+  nameWithType.vb: ESL_PROT.Template.Save(Byte)
+- uid: PROTOCOL_ESL.ESL_PROT.Template.Save*
+  name: Save
+  href: api/PROTOCOL_ESL.ESL_PROT.Template.Save.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Template.Save
+  fullName: PROTOCOL_ESL.ESL_PROT.Template.Save
+  nameWithType: ESL_PROT.Template.Save
+- uid: PROTOCOL_ESL.ESL_PROT.Update
+  name: ESL_PROT.Update
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.html
+  commentId: T:PROTOCOL_ESL.ESL_PROT.Update
+  fullName: PROTOCOL_ESL.ESL_PROT.Update
+  nameWithType: ESL_PROT.Update
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Bitmap(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name: Bitmap(byte, IEnumerable<byte>)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Bitmap.html#PROTOCOL_ESL_ESL_PROT_Update_Bitmap_System_Byte_System_Collections_Generic_IEnumerable_System_Byte__
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.Bitmap(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name.vb: Bitmap(Byte, IEnumerable(Of Byte))
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Bitmap(byte, System.Collections.Generic.IEnumerable<byte>)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.Bitmap(Byte, System.Collections.Generic.IEnumerable(Of Byte))
+  nameWithType: ESL_PROT.Update.Bitmap(byte, IEnumerable<byte>)
+  nameWithType.vb: ESL_PROT.Update.Bitmap(Byte, IEnumerable(Of Byte))
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Bitmap*
+  name: Bitmap
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Bitmap.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.Bitmap
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Bitmap
+  nameWithType: ESL_PROT.Update.Bitmap
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode(System.Byte,System.String)
+  name: Elem_Barcode(byte, string)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode.html#PROTOCOL_ESL_ESL_PROT_Update_Elem_Barcode_System_Byte_System_String_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode(System.Byte,System.String)
+  name.vb: Elem_Barcode(Byte, String)
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode(byte, string)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode(Byte, String)
+  nameWithType: ESL_PROT.Update.Elem_Barcode(byte, string)
+  nameWithType.vb: ESL_PROT.Update.Elem_Barcode(Byte, String)
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode*
+  name: Elem_Barcode
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode
+  nameWithType: ESL_PROT.Update.Elem_Barcode
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator(PROTOCOL_ESL.ledColor)
+  name: Elem_Indicator(ledColor)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator.html#PROTOCOL_ESL_ESL_PROT_Update_Elem_Indicator_PROTOCOL_ESL_ledColor_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator(PROTOCOL_ESL.ledColor)
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator(PROTOCOL_ESL.ledColor)
+  nameWithType: ESL_PROT.Update.Elem_Indicator(ledColor)
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator*
+  name: Elem_Indicator
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator
+  nameWithType: ESL_PROT.Update.Elem_Indicator
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Elem_Num(System.Byte,System.UInt32)
+  name: Elem_Num(byte, uint)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Num.html#PROTOCOL_ESL_ESL_PROT_Update_Elem_Num_System_Byte_System_UInt32_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.Elem_Num(System.Byte,System.UInt32)
+  name.vb: Elem_Num(Byte, UInteger)
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Elem_Num(byte, uint)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.Elem_Num(Byte, UInteger)
+  nameWithType: ESL_PROT.Update.Elem_Num(byte, uint)
+  nameWithType.vb: ESL_PROT.Update.Elem_Num(Byte, UInteger)
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Elem_Num*
+  name: Elem_Num
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Num.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.Elem_Num
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Elem_Num
+  nameWithType: ESL_PROT.Update.Elem_Num
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Elem_String(System.Byte,System.String)
+  name: Elem_String(byte, string)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Elem_String.html#PROTOCOL_ESL_ESL_PROT_Update_Elem_String_System_Byte_System_String_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.Elem_String(System.Byte,System.String)
+  name.vb: Elem_String(Byte, String)
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Elem_String(byte, string)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.Elem_String(Byte, String)
+  nameWithType: ESL_PROT.Update.Elem_String(byte, string)
+  nameWithType.vb: ESL_PROT.Update.Elem_String(Byte, String)
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Elem_String*
+  name: Elem_String
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Elem_String.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.Elem_String
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Elem_String
+  nameWithType: ESL_PROT.Update.Elem_String
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Indicator(System.Byte,PROTOCOL_ESL.ledColor)
+  name: Indicator(byte, ledColor)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Indicator.html#PROTOCOL_ESL_ESL_PROT_Update_Indicator_System_Byte_PROTOCOL_ESL_ledColor_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.Indicator(System.Byte,PROTOCOL_ESL.ledColor)
+  name.vb: Indicator(Byte, ledColor)
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Indicator(byte, PROTOCOL_ESL.ledColor)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.Indicator(Byte, PROTOCOL_ESL.ledColor)
+  nameWithType: ESL_PROT.Update.Indicator(byte, ledColor)
+  nameWithType.vb: ESL_PROT.Update.Indicator(Byte, ledColor)
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Indicator*
+  name: Indicator
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Indicator.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.Indicator
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Indicator
+  nameWithType: ESL_PROT.Update.Indicator
+- uid: PROTOCOL_ESL.ESL_PROT.Update.LASA(System.Byte,System.Byte)
+  name: LASA(byte, byte)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.LASA.html#PROTOCOL_ESL_ESL_PROT_Update_LASA_System_Byte_System_Byte_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.LASA(System.Byte,System.Byte)
+  name.vb: LASA(Byte, Byte)
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.LASA(byte, byte)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.LASA(Byte, Byte)
+  nameWithType: ESL_PROT.Update.LASA(byte, byte)
+  nameWithType.vb: ESL_PROT.Update.LASA(Byte, Byte)
+- uid: PROTOCOL_ESL.ESL_PROT.Update.LASA*
+  name: LASA
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.LASA.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.LASA
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.LASA
+  nameWithType: ESL_PROT.Update.LASA
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Multi(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name: Multi(byte, IEnumerable<byte>)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Multi.html#PROTOCOL_ESL_ESL_PROT_Update_Multi_System_Byte_System_Collections_Generic_IEnumerable_System_Byte__
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.Multi(System.Byte,System.Collections.Generic.IEnumerable{System.Byte})
+  name.vb: Multi(Byte, IEnumerable(Of Byte))
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Multi(byte, System.Collections.Generic.IEnumerable<byte>)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.Multi(Byte, System.Collections.Generic.IEnumerable(Of Byte))
+  nameWithType: ESL_PROT.Update.Multi(byte, IEnumerable<byte>)
+  nameWithType.vb: ESL_PROT.Update.Multi(Byte, IEnumerable(Of Byte))
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Multi*
+  name: Multi
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Multi.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.Multi
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Multi
+  nameWithType: ESL_PROT.Update.Multi
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Num(System.Byte,System.Byte,System.UInt32)
+  name: Num(byte, byte, uint)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Num.html#PROTOCOL_ESL_ESL_PROT_Update_Num_System_Byte_System_Byte_System_UInt32_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.Num(System.Byte,System.Byte,System.UInt32)
+  name.vb: Num(Byte, Byte, UInteger)
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Num(byte, byte, uint)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.Num(Byte, Byte, UInteger)
+  nameWithType: ESL_PROT.Update.Num(byte, byte, uint)
+  nameWithType.vb: ESL_PROT.Update.Num(Byte, Byte, UInteger)
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Num*
+  name: Num
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Num.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.Num
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Num
+  nameWithType: ESL_PROT.Update.Num
+- uid: PROTOCOL_ESL.ESL_PROT.Update.String(System.Byte,System.Byte,System.String)
+  name: String(byte, byte, string)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.String.html#PROTOCOL_ESL_ESL_PROT_Update_String_System_Byte_System_Byte_System_String_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.String(System.Byte,System.Byte,System.String)
+  name.vb: String(Byte, Byte, String)
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.String(byte, byte, string)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.String(Byte, Byte, String)
+  nameWithType: ESL_PROT.Update.String(byte, byte, string)
+  nameWithType.vb: ESL_PROT.Update.String(Byte, Byte, String)
+- uid: PROTOCOL_ESL.ESL_PROT.Update.String*
+  name: String
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.String.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.String
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.String
+  nameWithType: ESL_PROT.Update.String
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode(System.Byte,System.Byte,System.String)
+  name: Upload_Barcode(byte, byte, string)
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode.html#PROTOCOL_ESL_ESL_PROT_Update_Upload_Barcode_System_Byte_System_Byte_System_String_
+  commentId: M:PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode(System.Byte,System.Byte,System.String)
+  name.vb: Upload_Barcode(Byte, Byte, String)
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode(byte, byte, string)
+  fullName.vb: PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode(Byte, Byte, String)
+  nameWithType: ESL_PROT.Update.Upload_Barcode(byte, byte, string)
+  nameWithType.vb: ESL_PROT.Update.Upload_Barcode(Byte, Byte, String)
+- uid: PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode*
+  name: Upload_Barcode
+  href: api/PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode.html
+  commentId: Overload:PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode
+  fullName: PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode
+  nameWithType: ESL_PROT.Update.Upload_Barcode
+- uid: PROTOCOL_ESL.alignMode
+  name: alignMode
+  href: api/PROTOCOL_ESL.alignMode.html
+  commentId: T:PROTOCOL_ESL.alignMode
+  fullName: PROTOCOL_ESL.alignMode
+  nameWithType: alignMode
+- uid: PROTOCOL_ESL.alignMode.LeftBott
+  name: LeftBott
+  href: api/PROTOCOL_ESL.alignMode.html#PROTOCOL_ESL_alignMode_LeftBott
+  commentId: F:PROTOCOL_ESL.alignMode.LeftBott
+  fullName: PROTOCOL_ESL.alignMode.LeftBott
+  nameWithType: alignMode.LeftBott
+- uid: PROTOCOL_ESL.alignMode.LeftMid
+  name: LeftMid
+  href: api/PROTOCOL_ESL.alignMode.html#PROTOCOL_ESL_alignMode_LeftMid
+  commentId: F:PROTOCOL_ESL.alignMode.LeftMid
+  fullName: PROTOCOL_ESL.alignMode.LeftMid
+  nameWithType: alignMode.LeftMid
+- uid: PROTOCOL_ESL.alignMode.LeftUp
+  name: LeftUp
+  href: api/PROTOCOL_ESL.alignMode.html#PROTOCOL_ESL_alignMode_LeftUp
+  commentId: F:PROTOCOL_ESL.alignMode.LeftUp
+  fullName: PROTOCOL_ESL.alignMode.LeftUp
+  nameWithType: alignMode.LeftUp
+- uid: PROTOCOL_ESL.alignMode.MidBott
+  name: MidBott
+  href: api/PROTOCOL_ESL.alignMode.html#PROTOCOL_ESL_alignMode_MidBott
+  commentId: F:PROTOCOL_ESL.alignMode.MidBott
+  fullName: PROTOCOL_ESL.alignMode.MidBott
+  nameWithType: alignMode.MidBott
+- uid: PROTOCOL_ESL.alignMode.MidMid
+  name: MidMid
+  href: api/PROTOCOL_ESL.alignMode.html#PROTOCOL_ESL_alignMode_MidMid
+  commentId: F:PROTOCOL_ESL.alignMode.MidMid
+  fullName: PROTOCOL_ESL.alignMode.MidMid
+  nameWithType: alignMode.MidMid
+- uid: PROTOCOL_ESL.alignMode.MidUp
+  name: MidUp
+  href: api/PROTOCOL_ESL.alignMode.html#PROTOCOL_ESL_alignMode_MidUp
+  commentId: F:PROTOCOL_ESL.alignMode.MidUp
+  fullName: PROTOCOL_ESL.alignMode.MidUp
+  nameWithType: alignMode.MidUp
+- uid: PROTOCOL_ESL.alignMode.RightBott
+  name: RightBott
+  href: api/PROTOCOL_ESL.alignMode.html#PROTOCOL_ESL_alignMode_RightBott
+  commentId: F:PROTOCOL_ESL.alignMode.RightBott
+  fullName: PROTOCOL_ESL.alignMode.RightBott
+  nameWithType: alignMode.RightBott
+- uid: PROTOCOL_ESL.alignMode.RightMid
+  name: RightMid
+  href: api/PROTOCOL_ESL.alignMode.html#PROTOCOL_ESL_alignMode_RightMid
+  commentId: F:PROTOCOL_ESL.alignMode.RightMid
+  fullName: PROTOCOL_ESL.alignMode.RightMid
+  nameWithType: alignMode.RightMid
+- uid: PROTOCOL_ESL.alignMode.RightUp
+  name: RightUp
+  href: api/PROTOCOL_ESL.alignMode.html#PROTOCOL_ESL_alignMode_RightUp
+  commentId: F:PROTOCOL_ESL.alignMode.RightUp
+  fullName: PROTOCOL_ESL.alignMode.RightUp
+  nameWithType: alignMode.RightUp
+- uid: PROTOCOL_ESL.colorMode
+  name: colorMode
+  href: api/PROTOCOL_ESL.colorMode.html
+  commentId: T:PROTOCOL_ESL.colorMode
+  fullName: PROTOCOL_ESL.colorMode
+  nameWithType: colorMode
+- uid: PROTOCOL_ESL.colorMode.Black
+  name: Black
+  href: api/PROTOCOL_ESL.colorMode.html#PROTOCOL_ESL_colorMode_Black
+  commentId: F:PROTOCOL_ESL.colorMode.Black
+  fullName: PROTOCOL_ESL.colorMode.Black
+  nameWithType: colorMode.Black
+- uid: PROTOCOL_ESL.colorMode.Red
+  name: Red
+  href: api/PROTOCOL_ESL.colorMode.html#PROTOCOL_ESL_colorMode_Red
+  commentId: F:PROTOCOL_ESL.colorMode.Red
+  fullName: PROTOCOL_ESL.colorMode.Red
+  nameWithType: colorMode.Red
+- uid: PROTOCOL_ESL.colorMode.White
+  name: White
+  href: api/PROTOCOL_ESL.colorMode.html#PROTOCOL_ESL_colorMode_White
+  commentId: F:PROTOCOL_ESL.colorMode.White
+  fullName: PROTOCOL_ESL.colorMode.White
+  nameWithType: colorMode.White
+- uid: PROTOCOL_ESL.fontType
+  name: fontType
+  href: api/PROTOCOL_ESL.fontType.html
+  commentId: T:PROTOCOL_ESL.fontType
+  fullName: PROTOCOL_ESL.fontType
+  nameWithType: fontType
+- uid: PROTOCOL_ESL.fontType.Font12
+  name: Font12
+  href: api/PROTOCOL_ESL.fontType.html#PROTOCOL_ESL_fontType_Font12
+  commentId: F:PROTOCOL_ESL.fontType.Font12
+  fullName: PROTOCOL_ESL.fontType.Font12
+  nameWithType: fontType.Font12
+- uid: PROTOCOL_ESL.fontType.Font16
+  name: Font16
+  href: api/PROTOCOL_ESL.fontType.html#PROTOCOL_ESL_fontType_Font16
+  commentId: F:PROTOCOL_ESL.fontType.Font16
+  fullName: PROTOCOL_ESL.fontType.Font16
+  nameWithType: fontType.Font16
+- uid: PROTOCOL_ESL.fontType.Font24
+  name: Font24
+  href: api/PROTOCOL_ESL.fontType.html#PROTOCOL_ESL_fontType_Font24
+  commentId: F:PROTOCOL_ESL.fontType.Font24
+  fullName: PROTOCOL_ESL.fontType.Font24
+  nameWithType: fontType.Font24
+- uid: PROTOCOL_ESL.fontType.Font32
+  name: Font32
+  href: api/PROTOCOL_ESL.fontType.html#PROTOCOL_ESL_fontType_Font32
+  commentId: F:PROTOCOL_ESL.fontType.Font32
+  fullName: PROTOCOL_ESL.fontType.Font32
+  nameWithType: fontType.Font32
+- uid: PROTOCOL_ESL.ledColor
+  name: ledColor
+  href: api/PROTOCOL_ESL.ledColor.html
+  commentId: T:PROTOCOL_ESL.ledColor
+  fullName: PROTOCOL_ESL.ledColor
+  nameWithType: ledColor
+- uid: PROTOCOL_ESL.ledColor.LED_B
+  name: LED_B
+  href: api/PROTOCOL_ESL.ledColor.html#PROTOCOL_ESL_ledColor_LED_B
+  commentId: F:PROTOCOL_ESL.ledColor.LED_B
+  fullName: PROTOCOL_ESL.ledColor.LED_B
+  nameWithType: ledColor.LED_B
+- uid: PROTOCOL_ESL.ledColor.LED_G
+  name: LED_G
+  href: api/PROTOCOL_ESL.ledColor.html#PROTOCOL_ESL_ledColor_LED_G
+  commentId: F:PROTOCOL_ESL.ledColor.LED_G
+  fullName: PROTOCOL_ESL.ledColor.LED_G
+  nameWithType: ledColor.LED_G
+- uid: PROTOCOL_ESL.ledColor.LED_OFF
+  name: LED_OFF
+  href: api/PROTOCOL_ESL.ledColor.html#PROTOCOL_ESL_ledColor_LED_OFF
+  commentId: F:PROTOCOL_ESL.ledColor.LED_OFF
+  fullName: PROTOCOL_ESL.ledColor.LED_OFF
+  nameWithType: ledColor.LED_OFF
+- uid: PROTOCOL_ESL.ledColor.LED_R
+  name: LED_R
+  href: api/PROTOCOL_ESL.ledColor.html#PROTOCOL_ESL_ledColor_LED_R
+  commentId: F:PROTOCOL_ESL.ledColor.LED_R
+  fullName: PROTOCOL_ESL.ledColor.LED_R
+  nameWithType: ledColor.LED_R
+- uid: PROTOCOL_ESL.ledColor.LED_Y
+  name: LED_Y
+  href: api/PROTOCOL_ESL.ledColor.html#PROTOCOL_ESL_ledColor_LED_Y
+  commentId: F:PROTOCOL_ESL.ledColor.LED_Y
+  fullName: PROTOCOL_ESL.ledColor.LED_Y
+  nameWithType: ledColor.LED_Y

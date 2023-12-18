@@ -1,0 +1,322 @@
+{
+  "api/ESL_Protocol_V1.EslProtocolGen.EslRefresh.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.EslRefresh.html",
+    "title": "Method EslRefresh | esl_api",
+    "keywords": "Method EslRefresh Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll EslRefresh(byte) 標籤螢幕重刷 public IEnumerable<byte> EslRefresh(byte packageNumber) Parameters packageNumber byte Returns IEnumerable<byte>"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode.html",
+    "title": "Method Add_Barcode | esl_api",
+    "keywords": "Method Add_Barcode Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Add_Barcode(ushort, ushort, byte, alignMode, colorMode) 添加一個code39元素 public void Add_Barcode(ushort posx, ushort posy, byte heightPixel, EslProtocolGen.alignMode align, EslProtocolGen.colorMode color) Parameters posx ushort X座標參考 posy ushort Y座標參考 heightPixel byte 條碼高度(pixel) align EslProtocolGen.alignMode 對齊方式 color EslProtocolGen.colorMode 顏色"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Bitmap.html",
+    "title": "Method Add_Bitmap | esl_api",
+    "keywords": "Method Add_Bitmap Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Add_Bitmap(ushort, ushort, ushort, byte, alignMode, colorMode) 添加一個Bitmap元素 public void Add_Bitmap(ushort posx, ushort posy, ushort heightPixel, byte widthByte, EslProtocolGen.alignMode align, EslProtocolGen.colorMode color) Parameters posx ushort X座標參考 posy ushort Y座標參考 heightPixel ushort Bitmap高度 widthByte byte Bitmap寬度(單位Byte) align EslProtocolGen.alignMode 對齊方式 color EslProtocolGen.colorMode 顏色"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Num.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Num.html",
+    "title": "Method Add_Num | esl_api",
+    "keywords": "Method Add_Num Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Add_Num(ushort, ushort, fontType, alignMode, colorMode) 添加一個數字元素 public void Add_Num(ushort posx, ushort posy, EslProtocolGen.fontType font, EslProtocolGen.alignMode align, EslProtocolGen.colorMode color) Parameters posx ushort X座標參考 posy ushort Y座標參考 font EslProtocolGen.fontType 字體類型(fontType) align EslProtocolGen.alignMode 對齊方式 color EslProtocolGen.colorMode 顏色"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_String.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_String.html",
+    "title": "Method Add_String | esl_api",
+    "keywords": "Method Add_String Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Add_String(ushort, ushort, fontType, alignMode, colorMode) 添加一個String元素 public void Add_String(ushort posx, ushort posy, EslProtocolGen.fontType font, EslProtocolGen.alignMode align, EslProtocolGen.colorMode color) Parameters posx ushort X座標參考 posy ushort Y座標參考 font EslProtocolGen.fontType 字體類型(fontType) align EslProtocolGen.alignMode 對齊方式 color EslProtocolGen.colorMode 顏色"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate.html",
+    "title": "Property AutoNewTemplate | esl_api",
+    "keywords": "Property AutoNewTemplate Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll AutoNewTemplate 自動覆蓋設備上原有的模板資料，否則往後添加模板 public bool AutoNewTemplate { get; set; } Property Value bool"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Template.Clear.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Template.Clear.html",
+    "title": "Method Clear | esl_api",
+    "keywords": "Method Clear Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Clear() 清除模板內容及元素 public void Clear()"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Template.GenPkg.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Template.GenPkg.html",
+    "title": "Method GenPkg | esl_api",
+    "keywords": "Method GenPkg Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll GenPkg() 模板封包產生(HEX) public IEnumerable<byte> GenPkg() Returns IEnumerable<byte> 回傳為zigbee payload封包資料(不包含標籤短地址的部分)"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Template.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Template.html",
+    "title": "Class EslProtocolGen.Template | esl_api",
+    "keywords": "Class EslProtocolGen.Template Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll 電子紙模板產生模組 public class EslProtocolGen.Template Inheritance object EslProtocolGen.Template Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Examples EslProtocolGen.Template EslTemp = new EslProtocolGen.Template(); EslTemp.Clear(); EslTemp.Add_Bitmap(0, 0, 50, 6, EslProtocolGen.alignMode.RightUp, EslProtocolGen.colorMode.Black); //元素1:BMP EslTemp.Add_Bitmap(0, 120, 200, 4, EslProtocolGen.alignMode.RightUp, EslProtocolGen.colorMode.Black); //元素2:BMP EslTemp.Add_String(52, 22, EslProtocolGen.fontType.Font16, EslProtocolGen.alignMode.RightUp, EslProtocolGen.colorMode.Black);//元素3:String EslTemp.Add_Num(70, 80, EslProtocolGen.fontType.Font24,EslProtocolGen.alignMode.MidUp, EslProtocolGen.colorMode.Black);//元素4:Num EslTemp.GenPkg(); Properties AutoNewTemplate 自動覆蓋設備上原有的模板資料，否則往後添加模板 Methods Add_Barcode(ushort, ushort, byte, alignMode, colorMode) 添加一個code39元素 Add_Bitmap(ushort, ushort, ushort, byte, alignMode, colorMode) 添加一個Bitmap元素 Add_Num(ushort, ushort, fontType, alignMode, colorMode) 添加一個數字元素 Add_String(ushort, ushort, fontType, alignMode, colorMode) 添加一個String元素 Clear() 清除模板內容及元素 GenPkg() 模板封包產生(HEX)"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.Barcode.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.Barcode.html",
+    "title": "Method Barcode | esl_api",
+    "keywords": "Method Barcode Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Barcode(byte, string) 更新一個Code39元素 public bool Barcode(byte TargetSn, string Str) Parameters TargetSn byte 目標元素序號(模板建立的順序) Str string 新的Code39元素資料 Returns bool"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.Bitmap.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.Bitmap.html",
+    "title": "Method Bitmap | esl_api",
+    "keywords": "Method Bitmap Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Bitmap(byte, IEnumerable<byte>) 更新一個Bitmap元素 public bool Bitmap(byte TargetSn, IEnumerable<byte> Bmpdata) Parameters TargetSn byte 目標元素序號(模板建立的順序) Bmpdata IEnumerable<byte> 新的Bitmap元素資料 Returns bool"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize.html",
+    "title": "Property BmpSplitSize | esl_api",
+    "keywords": "Property BmpSplitSize Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll BmpSplitSize Bitmap資料分包大小，預設120 byte public byte BmpSplitSize { get; set; } Property Value byte"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.Clear.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.Clear.html",
+    "title": "Method Clear | esl_api",
+    "keywords": "Method Clear Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Clear() 清除上傳指令內容 public void Clear()"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize.html",
+    "title": "Property ContentSplitSize | esl_api",
+    "keywords": "Property ContentSplitSize Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll ContentSplitSize 其餘所有內容資料分包大小，預設120 byte public byte ContentSplitSize { get; set; } Property Value byte"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.GenPkg.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.GenPkg.html",
+    "title": "Method GenPkg | esl_api",
+    "keywords": "Method GenPkg Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll GenPkg() 素材上傳指令封包產生(HEX) public IEnumerable<byte> GenPkg() Returns IEnumerable<byte> 回傳為zigbee payload封包資料(不包含標籤短地址的部分)"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.Indicator.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.Indicator.html",
+    "title": "Method Indicator | esl_api",
+    "keywords": "Method Indicator Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Indicator(ledColor) 更新LED狀態 public void Indicator(EslProtocolGen.ledColor Color) Parameters Color EslProtocolGen.ledColor"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.LASA.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.LASA.html",
+    "title": "Method LASA | esl_api",
+    "keywords": "Method LASA Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll LASA(byte) 更新LASA狀態 public void LASA(byte lasa) Parameters lasa byte"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.Num.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.Num.html",
+    "title": "Method Num | esl_api",
+    "keywords": "Method Num Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll Num(byte, uint) 更新一個Num元素 public bool Num(byte TargetSn, uint Num) Parameters TargetSn byte 目標元素序號(模板建立的順序) Num uint 新的Num元素資料 Returns bool"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.String.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.String.html",
+    "title": "Method String | esl_api",
+    "keywords": "Method String Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll String(byte, string) 更新一個String元素 public bool String(byte TargetSn, string Str) Parameters TargetSn byte 目標元素序號(模板建立的順序) Str string 新的String元素資料 Note 資料不可為null Returns bool"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.Update.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.Update.html",
+    "title": "Class EslProtocolGen.Update | esl_api",
+    "keywords": "Class EslProtocolGen.Update Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll 電子紙素材上傳指令產生模組 public class EslProtocolGen.Update Inheritance object EslProtocolGen.Update Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Examples EslProtocolGen.Update EslUpd = new EslProtocolGen.Update(); EslUpd.Clear(); EslUpd.Bitmap(1, ConvStr.ConvertHexStringToList(elem.Content)); //更新元素1:BMP EslUpd.String(3, \"TEST\"); //元素3:String EslUpd.Barcode(4, \"0123456\"); //元素4:Code39 Properties BmpSplitSize Bitmap資料分包大小，預設120 byte ContentSplitSize 其餘所有內容資料分包大小，預設120 byte Methods Barcode(byte, string) 更新一個Code39元素 Bitmap(byte, IEnumerable<byte>) 更新一個Bitmap元素 Clear() 清除上傳指令內容 GenPkg() 素材上傳指令封包產生(HEX) Indicator(ledColor) 更新LED狀態 LASA(byte) 更新LASA狀態 Num(byte, uint) 更新一個Num元素 String(byte, string) 更新一個String元素"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.alignMode.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.alignMode.html",
+    "title": "Enum EslProtocolGen.alignMode | esl_api",
+    "keywords": "Enum EslProtocolGen.alignMode Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll public enum EslProtocolGen.alignMode : byte Fields LeftBott = 34 LeftMid = 33 LeftUp = 32 MidBott = 18 MidMid = 17 MidUp = 16 RightBott = 2 RightMid = 1 RightUp = 0"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.colorMode.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.colorMode.html",
+    "title": "Enum EslProtocolGen.colorMode | esl_api",
+    "keywords": "Enum EslProtocolGen.colorMode Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll public enum EslProtocolGen.colorMode : byte Fields Black = 0 Red = 1 White = 2"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.fontType.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.fontType.html",
+    "title": "Enum EslProtocolGen.fontType | esl_api",
+    "keywords": "Enum EslProtocolGen.fontType Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll public enum EslProtocolGen.fontType : byte Fields Font12 = 0 Font16 = 1 Font24 = 2 Font32 = 3"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.html",
+    "title": "Class EslProtocolGen | esl_api",
+    "keywords": "Class EslProtocolGen Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll public class EslProtocolGen Inheritance object EslProtocolGen Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods EslRefresh(byte) 標籤螢幕重刷"
+  },
+  "api/ESL_Protocol_V1.EslProtocolGen.ledColor.html": {
+    "href": "api/ESL_Protocol_V1.EslProtocolGen.ledColor.html",
+    "title": "Enum EslProtocolGen.ledColor | esl_api",
+    "keywords": "Enum EslProtocolGen.ledColor Namespace ESL_Protocol_V1 Assembly ESL_Protocol_V1.dll public enum EslProtocolGen.ledColor : byte Fields LED_B = 4 LED_G = 3 LED_OFF = 0 LED_R = 1 LED_Y = 2"
+  },
+  "api/ESL_Protocol_V1.html": {
+    "href": "api/ESL_Protocol_V1.html",
+    "title": "Namespace ESL_Protocol_V1 | esl_api",
+    "keywords": "Namespace ESL_Protocol_V1 Classes EslProtocolGen EslProtocolGen.Template 電子紙模板產生模組 EslProtocolGen.Update 電子紙素材上傳指令產生模組 Enums EslProtocolGen.alignMode EslProtocolGen.colorMode EslProtocolGen.fontType EslProtocolGen.ledColor"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.EslRefresh.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.EslRefresh.html",
+    "title": "Method EslRefresh | esl_api",
+    "keywords": "Method EslRefresh Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll EslRefresh(byte) 標籤螢幕重刷 public static IEnumerable<byte> EslRefresh(byte packageNumber) Parameters packageNumber byte Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.EslWake.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.EslWake.html",
+    "title": "Method EslWake | esl_api",
+    "keywords": "Method EslWake Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll EslWake(byte) 標籤喚醒(棄用) public static IEnumerable<byte> EslWake(byte packageNumber) Parameters packageNumber byte Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.GenPack.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.GenPack.html",
+    "title": "Method GenPack | esl_api",
+    "keywords": "Method GenPack Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll GenPack(List<byte>, byte) 產生封包的地方 public static IEnumerable<byte> GenPack(List<byte> payloadData, byte pkgSn) Parameters payloadData List<byte> pkgSn byte Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.GetBatt.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.GetBatt.html",
+    "title": "Method GetBatt | esl_api",
+    "keywords": "Method GetBatt Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll GetBatt(byte) 取得標籤電量(暫無) public static IEnumerable<byte> GetBatt(byte packageNumber) Parameters packageNumber byte Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode.html",
+    "title": "Method Add_Barcode | esl_api",
+    "keywords": "Method Add_Barcode Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Add_Barcode(byte, ushort, ushort, byte, alignMode, colorMode) public static IEnumerable<byte> Add_Barcode(byte packageNumber, ushort posx, ushort posy, byte heightPixel, alignMode align, colorMode color) Parameters packageNumber byte posx ushort posy ushort heightPixel byte align alignMode color colorMode Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap.html",
+    "title": "Method Add_Bitmap | esl_api",
+    "keywords": "Method Add_Bitmap Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Add_Bitmap(byte, ushort, ushort, ushort, byte, alignMode, colorMode) public static IEnumerable<byte> Add_Bitmap(byte packageNumber, ushort posx, ushort posy, ushort heightPixel, byte widthByte, alignMode align, colorMode color) Parameters packageNumber byte posx ushort posy ushort heightPixel ushort widthByte byte align alignMode color colorMode Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem.html",
+    "title": "Method Add_MultiElem | esl_api",
+    "keywords": "Method Add_MultiElem Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Add_MultiElem(byte, IEnumerable<byte>) public static IEnumerable<byte> Add_MultiElem(byte packageNumber, IEnumerable<byte> data) Parameters packageNumber byte data IEnumerable<byte> Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr.html",
+    "title": "Method Add_MultiElem_wClr | esl_api",
+    "keywords": "Method Add_MultiElem_wClr Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Add_MultiElem_wClr(byte, IEnumerable<byte>) public static IEnumerable<byte> Add_MultiElem_wClr(byte packageNumber, IEnumerable<byte> data) Parameters packageNumber byte data IEnumerable<byte> Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Num.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Num.html",
+    "title": "Method Add_Num | esl_api",
+    "keywords": "Method Add_Num Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Add_Num(byte, ushort, ushort, fontType, alignMode, colorMode) public static IEnumerable<byte> Add_Num(byte packageNumber, ushort posx, ushort posy, fontType font, alignMode align, colorMode color) Parameters packageNumber byte posx ushort posy ushort font fontType align alignMode color colorMode Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Add_String.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_String.html",
+    "title": "Method Add_String | esl_api",
+    "keywords": "Method Add_String Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Add_String(byte, ushort, ushort, fontType, alignMode, colorMode) public static IEnumerable<byte> Add_String(byte packageNumber, ushort posx, ushort posy, fontType font, alignMode align, colorMode color) Parameters packageNumber byte posx ushort posy ushort font fontType align alignMode color colorMode Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Clear.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Clear.html",
+    "title": "Method Clear | esl_api",
+    "keywords": "Method Clear Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Clear(byte) 清除模板 public static IEnumerable<byte> Clear(byte packageNumber) Parameters packageNumber byte Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode.html",
+    "title": "Method Elem_Barcode | esl_api",
+    "keywords": "Method Elem_Barcode Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Elem_Barcode(ushort, ushort, byte, alignMode, colorMode) public static IEnumerable<byte> Elem_Barcode(ushort posx, ushort posy, byte heightPixel, alignMode align, colorMode color) Parameters posx ushort posy ushort heightPixel byte align alignMode color colorMode Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Bitmap.html",
+    "title": "Method Elem_Bitmap | esl_api",
+    "keywords": "Method Elem_Bitmap Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Elem_Bitmap(ushort, ushort, ushort, byte, alignMode, colorMode) Bitmap元素 public static IEnumerable<byte> Elem_Bitmap(ushort posx, ushort posy, ushort heightPixel, byte widthByte, alignMode align, colorMode color) Parameters posx ushort X座標 posy ushort Y座標 heightPixel ushort Bitmap高度 widthByte byte Bitmap寬度(單位Byte) align alignMode 對齊方式 color colorMode 顏色 Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Num.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Num.html",
+    "title": "Method Elem_Num | esl_api",
+    "keywords": "Method Elem_Num Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Elem_Num(ushort, ushort, fontType, alignMode, colorMode) public static IEnumerable<byte> Elem_Num(ushort posx, ushort posy, fontType font, alignMode align, colorMode color) Parameters posx ushort posy ushort font fontType align alignMode color colorMode Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_String.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_String.html",
+    "title": "Method Elem_String | esl_api",
+    "keywords": "Method Elem_String Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Elem_String(ushort, ushort, fontType, alignMode, colorMode) public static IEnumerable<byte> Elem_String(ushort posx, ushort posy, fontType font, alignMode align, colorMode color) Parameters posx ushort posy ushort font fontType align alignMode color colorMode Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.Save.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.Save.html",
+    "title": "Method Save | esl_api",
+    "keywords": "Method Save Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Save(byte) 儲存模板(至內部flash) public static IEnumerable<byte> Save(byte packageNumber) Parameters packageNumber byte Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Template.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Template.html",
+    "title": "Class ESL_PROT.Template | esl_api",
+    "keywords": "Class ESL_PROT.Template Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll 標籤模板建立相關方法 public class ESL_PROT.Template Inheritance object ESL_PROT.Template Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Add_Barcode(byte, ushort, ushort, byte, alignMode, colorMode) Add_Bitmap(byte, ushort, ushort, ushort, byte, alignMode, colorMode) Add_MultiElem(byte, IEnumerable<byte>) Add_MultiElem_wClr(byte, IEnumerable<byte>) Add_Num(byte, ushort, ushort, fontType, alignMode, colorMode) Add_String(byte, ushort, ushort, fontType, alignMode, colorMode) Clear(byte) 清除模板 Elem_Barcode(ushort, ushort, byte, alignMode, colorMode) Elem_Bitmap(ushort, ushort, ushort, byte, alignMode, colorMode) Bitmap元素 Elem_Num(ushort, ushort, fontType, alignMode, colorMode) Elem_String(ushort, ushort, fontType, alignMode, colorMode) Save(byte) 儲存模板(至內部flash)"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.Bitmap.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.Bitmap.html",
+    "title": "Method Bitmap | esl_api",
+    "keywords": "Method Bitmap Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Bitmap(byte, IEnumerable<byte>) public static IEnumerable<byte> Bitmap(byte TargetSn, IEnumerable<byte> Bmpdata) Parameters TargetSn byte Bmpdata IEnumerable<byte> Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode.html",
+    "title": "Method Elem_Barcode | esl_api",
+    "keywords": "Method Elem_Barcode Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Elem_Barcode(byte, string) public static IEnumerable<byte> Elem_Barcode(byte TargetSn, string Str) Parameters TargetSn byte Str string Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Indicator.html",
+    "title": "Method Elem_Indicator | esl_api",
+    "keywords": "Method Elem_Indicator Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Elem_Indicator(ledColor) public static IEnumerable<byte> Elem_Indicator(ledColor Color) Parameters Color ledColor Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Num.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Num.html",
+    "title": "Method Elem_Num | esl_api",
+    "keywords": "Method Elem_Num Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Elem_Num(byte, uint) public static IEnumerable<byte> Elem_Num(byte TargetSn, uint Num) Parameters TargetSn byte Num uint Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_String.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_String.html",
+    "title": "Method Elem_String | esl_api",
+    "keywords": "Method Elem_String Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Elem_String(byte, string) public static IEnumerable<byte> Elem_String(byte TargetSn, string Str) Parameters TargetSn byte Str string Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.Indicator.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.Indicator.html",
+    "title": "Method Indicator | esl_api",
+    "keywords": "Method Indicator Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Indicator(byte, ledColor) public static IEnumerable<byte> Indicator(byte packageNumber, ledColor Color) Parameters packageNumber byte Color ledColor Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.LASA.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.LASA.html",
+    "title": "Method LASA | esl_api",
+    "keywords": "Method LASA Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll LASA(byte, byte) public static IEnumerable<byte> LASA(byte packageNumber, byte lasa) Parameters packageNumber byte lasa byte Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.Multi.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.Multi.html",
+    "title": "Method Multi | esl_api",
+    "keywords": "Method Multi Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Multi(byte, IEnumerable<byte>) public static IEnumerable<byte> Multi(byte packageNumber, IEnumerable<byte> data) Parameters packageNumber byte data IEnumerable<byte> Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.Num.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.Num.html",
+    "title": "Method Num | esl_api",
+    "keywords": "Method Num Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Num(byte, byte, uint) public static IEnumerable<byte> Num(byte packageNumber, byte TargetSn, uint Num) Parameters packageNumber byte TargetSn byte Num uint Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.String.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.String.html",
+    "title": "Method String | esl_api",
+    "keywords": "Method String Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll String(byte, byte, string) public static IEnumerable<byte> String(byte packageNumber, byte TargetSn, string Str) Parameters packageNumber byte TargetSn byte Str string Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.Upload_Barcode.html",
+    "title": "Method Upload_Barcode | esl_api",
+    "keywords": "Method Upload_Barcode Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll Upload_Barcode(byte, byte, string) public static IEnumerable<byte> Upload_Barcode(byte packageNumber, byte TargetSn, string Str) Parameters packageNumber byte TargetSn byte Str string Returns IEnumerable<byte>"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.Update.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.Update.html",
+    "title": "Class ESL_PROT.Update | esl_api",
+    "keywords": "Class ESL_PROT.Update Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll public class ESL_PROT.Update Inheritance object ESL_PROT.Update Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Bitmap(byte, IEnumerable<byte>) Elem_Barcode(byte, string) Elem_Indicator(ledColor) Elem_Num(byte, uint) Elem_String(byte, string) Indicator(byte, ledColor) LASA(byte, byte) Multi(byte, IEnumerable<byte>) Num(byte, byte, uint) String(byte, byte, string) Upload_Barcode(byte, byte, string)"
+  },
+  "api/PROTOCOL_ESL.ESL_PROT.html": {
+    "href": "api/PROTOCOL_ESL.ESL_PROT.html",
+    "title": "Class ESL_PROT | esl_api",
+    "keywords": "Class ESL_PROT Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll 這是整個class的summary2 public class ESL_PROT Inheritance object ESL_PROT Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods EslRefresh(byte) 標籤螢幕重刷 EslWake(byte) 標籤喚醒(棄用) GenPack(List<byte>, byte) 產生封包的地方 GetBatt(byte) 取得標籤電量(暫無)"
+  },
+  "api/PROTOCOL_ESL.alignMode.html": {
+    "href": "api/PROTOCOL_ESL.alignMode.html",
+    "title": "Enum alignMode | esl_api",
+    "keywords": "Enum alignMode Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll public enum alignMode : byte Fields LeftBott = 34 LeftMid = 33 LeftUp = 32 MidBott = 18 MidMid = 17 MidUp = 16 RightBott = 2 RightMid = 1 RightUp = 0"
+  },
+  "api/PROTOCOL_ESL.colorMode.html": {
+    "href": "api/PROTOCOL_ESL.colorMode.html",
+    "title": "Enum colorMode | esl_api",
+    "keywords": "Enum colorMode Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll public enum colorMode : byte Fields Black = 0 Red = 1 White = 2"
+  },
+  "api/PROTOCOL_ESL.fontType.html": {
+    "href": "api/PROTOCOL_ESL.fontType.html",
+    "title": "Enum fontType | esl_api",
+    "keywords": "Enum fontType Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll public enum fontType : byte Fields Font12 = 0 Font16 = 1 Font24 = 2 Font32 = 3"
+  },
+  "api/PROTOCOL_ESL.html": {
+    "href": "api/PROTOCOL_ESL.html",
+    "title": "Namespace PROTOCOL_ESL | esl_api",
+    "keywords": "Namespace PROTOCOL_ESL Classes ESL_PROT 這是整個class的summary2 ESL_PROT.Template 標籤模板建立相關方法 ESL_PROT.Update Enums alignMode colorMode fontType ledColor"
+  },
+  "api/PROTOCOL_ESL.ledColor.html": {
+    "href": "api/PROTOCOL_ESL.ledColor.html",
+    "title": "Enum ledColor | esl_api",
+    "keywords": "Enum ledColor Namespace PROTOCOL_ESL Assembly ESL_Protocol_V1.dll public enum ledColor : byte Fields LED_B = 4 LED_G = 3 LED_OFF = 0 LED_R = 1 LED_Y = 2"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | esl_api",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | esl_api",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | esl_api",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
