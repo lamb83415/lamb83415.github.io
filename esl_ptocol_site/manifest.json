@@ -12,50 +12,50 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslColorBRW.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslColorBRW.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslContentAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslContentAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslFont.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslLed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslLed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
       "output": {
         ".html": {
           "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_String.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Num.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Barcode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.Clear.html"
         }
       },
       "version": ""
@@ -85,6 +85,26 @@
       "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
       "output": {
         ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Code39.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.Clear.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.AutoNewTemplate.html"
         }
       },
@@ -92,10 +112,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Bitmap.html"
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.Add_Num.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Template.html"
         }
       },
       "version": ""
@@ -105,67 +135,7 @@
       "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Num.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Clear.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Barcode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Indicator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.LASA.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.html"
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Code39.html"
         }
       },
       "version": ""
@@ -185,6 +155,16 @@
       "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
       "output": {
         ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Bitmap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.GenPkg.html"
         }
       },
@@ -195,7 +175,67 @@
       "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
       "output": {
         ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Clear.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Indicator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.LASA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.BmpSplitSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.ContentSplitSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESL_Protocol_V1.EslProtocolGen.Update.Num.html"
         }
       },
       "version": ""
@@ -275,7 +315,47 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.html"
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Num.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Save.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_String.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode.html"
         }
       },
       "version": ""
@@ -286,6 +366,26 @@
       "output": {
         ".html": {
           "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Num.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem.html"
         }
       },
       "version": ""
@@ -315,47 +415,7 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_String.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem_wClr.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_MultiElem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Num.html"
         }
       },
       "version": ""
@@ -375,27 +435,27 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Bitmap.html"
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Add_Barcode.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
+      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Save.html"
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.LASA.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.yml",
+      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Template.Elem_Barcode.html"
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.Multi.html"
         }
       },
       "version": ""
@@ -425,16 +485,6 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.Bitmap.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_String.html"
         }
       },
@@ -445,7 +495,7 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Num.html"
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.Bitmap.html"
         }
       },
       "version": ""
@@ -455,17 +505,7 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.Multi.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.LASA.html"
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode.html"
         }
       },
       "version": ""
@@ -485,7 +525,7 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Barcode.html"
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.Update.Elem_Num.html"
         }
       },
       "version": ""
@@ -525,7 +565,7 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.EslWake.html"
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.GetBatt.html"
         }
       },
       "version": ""
@@ -545,6 +585,16 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.yml",
       "output": {
         ".html": {
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.GenPack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/PROTOCOL_ESL.ESL_PROT.EslRefresh.html"
         }
       },
@@ -555,17 +605,7 @@
       "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.GetBatt.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PROTOCOL_ESL.ESL_PROT.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.GenPack.html"
+          "relative_path": "api/PROTOCOL_ESL.ESL_PROT.EslWake.html"
         }
       },
       "version": ""

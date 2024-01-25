@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/lamb83415/ESL_Protocol_V1/new/master/apiSpec/new?filename=ESL_Protocol_V1_EslProtocolGen_Update.md&amp;value=---%0Auid%3A%20ESL_Protocol_V1.EslProtocolGen.Update%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -91,7 +91,7 @@
 
   <h1 id="ESL_Protocol_V1_EslProtocolGen_Update" data-uid="ESL_Protocol_V1.EslProtocolGen.Update" class="text-break">
     Class EslProtocolGen.Update
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lamb83415/ESL_Protocol_V1/blob/master/ESL_Protocol.cs/#L220"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -99,7 +99,7 @@
   <dl><dt>Assembly</dt><dd>ESL_Protocol_V1.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>電子紙素材上傳指令產生模組</p>
+  <div class="markdown summary"><p>電子紙元素資料內容封包產生</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -149,11 +149,14 @@
 
 
   <h2 id="ESL_Protocol_V1_EslProtocolGen_Update_examples">Examples</h2>
-  <pre><code class="lang-csharp">EslProtocolGen.Update EslUpd = new EslProtocolGen.Update();
+  <pre><code class="lang-csharp">//假設模板為[(0)String , (1)Bitmap , (2)String , (3)String , (4)Code39]
+//想要產生更新(1),(3),(4)元素內容的封包
+EslProtocolGen.Update EslUpd = new EslProtocolGen.Update();
 EslUpd.Clear();
 EslUpd.Bitmap(1, ConvStr.ConvertHexStringToList(elem.Content)); //更新元素1:BMP
 EslUpd.String(3, "TEST"); //元素3:String
-EslUpd.Barcode(4, "0123456"); //元素4:Code39</code></pre>
+EslUpd.Code39(4, "0123456"); //元素4:Code39
+var Datas = EslUpd.GenPkg();</code></pre>
 
 
 
@@ -175,11 +178,6 @@ EslUpd.Barcode(4, "0123456"); //元素4:Code39</code></pre>
 </h2>
 
   <dl class="jumplist">
-    <dt><a class="xref" href="ESL_Protocol_V1.EslProtocolGen.Update.Barcode.html#ESL_Protocol_V1_EslProtocolGen_Update_Barcode_System_Byte_System_String_">Barcode(byte, string)</a></dt>
-    <dd><p>更新一個Code39元素</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
     <dt><a class="xref" href="ESL_Protocol_V1.EslProtocolGen.Update.Bitmap.html#ESL_Protocol_V1_EslProtocolGen_Update_Bitmap_System_Byte_System_Collections_Generic_IEnumerable_System_Byte__">Bitmap(byte, IEnumerable&lt;byte&gt;)</a></dt>
     <dd><p>更新一個Bitmap元素</p>
 </dd>
@@ -190,12 +188,17 @@ EslUpd.Barcode(4, "0123456"); //元素4:Code39</code></pre>
 </dd>
   </dl>
   <dl class="jumplist">
+    <dt><a class="xref" href="ESL_Protocol_V1.EslProtocolGen.Update.Code39.html#ESL_Protocol_V1_EslProtocolGen_Update_Code39_System_Byte_System_String_">Code39(byte, string)</a></dt>
+    <dd><p>更新一個Code39元素</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
     <dt><a class="xref" href="ESL_Protocol_V1.EslProtocolGen.Update.GenPkg.html#ESL_Protocol_V1_EslProtocolGen_Update_GenPkg">GenPkg()</a></dt>
     <dd><p>素材上傳指令封包產生(HEX)</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="ESL_Protocol_V1.EslProtocolGen.Update.Indicator.html#ESL_Protocol_V1_EslProtocolGen_Update_Indicator_ESL_Protocol_V1_EslProtocolGen_ledColor_">Indicator(ledColor)</a></dt>
+    <dt><a class="xref" href="ESL_Protocol_V1.EslProtocolGen.Update.Indicator.html#ESL_Protocol_V1_EslProtocolGen_Update_Indicator_ESL_Protocol_V1_EslLed_">Indicator(EslLed)</a></dt>
     <dd><p>更新LED狀態</p>
 </dd>
   </dl>
@@ -220,6 +223,7 @@ EslUpd.Barcode(4, "0123456"); //元素4:Code39</code></pre>
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/lamb83415/ESL_Protocol_V1/blob/master/ESL_Protocol.cs/#L220" class="edit-link">Edit this page</a>
         </div>
 
 
